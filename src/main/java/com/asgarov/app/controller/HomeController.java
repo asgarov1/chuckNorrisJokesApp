@@ -18,7 +18,6 @@ public class HomeController {
     public String index(Model model) {
         model.addAttribute("joke", jokeService.getJoke());
         return "index";
-        //ch.. ch.. changes...
     }
 
 }
